@@ -142,9 +142,11 @@ Nomer expects the format to be:
 [id][tab][name]
 
 e.g.,
+
+```
 id\tname
 NCBI:9606\tHomo sapiens
-
+```
 
 Print names to screen and append itis taxonomic interpretation, and write/redirect to a file 'name-itis.tsv'
 
