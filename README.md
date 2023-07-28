@@ -4,8 +4,11 @@
 # is assumed to be a local file in working directory
 datasets:
     - url: names.csv
-      enabled: true
+      enabled: false
       type: text/csv
+    - url: https://docs.google.com/spreadsheets/u/0/d/1d-4X2xFdf-PkhXRsRu63Wx00kJiZsrNyCM9QqG2rvPA/export?format=tsv
+      enabled: true
+      type: text/tab-separated-values
     - id: mdd
       enabled: false
       name: Mammal Diversity Database
